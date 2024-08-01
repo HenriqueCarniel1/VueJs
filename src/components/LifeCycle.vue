@@ -17,7 +17,7 @@ export default {
     };
   },
   created() {
-    this.nome = "Matheus";
+    this.nome = "Gustavo";
   },
 };
 </script>
