@@ -1,5 +1,5 @@
 <template>
-  <p>Estou trabalhando no momento.</p>
+  <p v-if="esta_trabalhando">Estou trabalhando no momento.</p>
   <p>Estou em busca de novas oportunidades!</p>
   <p>Utilizo as seguintes tecnologias:</p>
   <ul>
@@ -14,7 +14,7 @@ export default {
   name: "Info",
   data() {
     return {
-
+      esta_trabalhando: false,
     };
   },
 };
