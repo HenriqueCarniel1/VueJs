@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PrimeiroComponente />
+    <primeiro-componente />
     <LifeCycle />
   </div>
 </template>
@@ -17,3 +17,9 @@ export default {
   },
 };
 </script>
+
+<style>
+  body {
+    background-color: #222222;
+  }
+</style>

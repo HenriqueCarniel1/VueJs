@@ -1,5 +1,5 @@
 <template>
-  <h1>Olá Vue!</h1>
+  <h1 class="colorir_elemento">Olá Vue!</h1>
 </template>
   
   <script>
